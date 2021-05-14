@@ -5,7 +5,6 @@ const useGameTableStyles = makeStyles(() => ({
     display: "flex",
     width: "300px",
     height: "300px",
-    margin: "0px auto",
     flexDirection: "column",
   },
   tableRow: {

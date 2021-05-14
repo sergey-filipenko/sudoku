@@ -10,8 +10,11 @@ function Game() {
   const [data, setData] = useState<GameDataType>()
   return (
     <div className={classes.pageOuter} >
-      <DataInput onChange={setData} />
-      {data && <GameTable data={data} />}
+      <h1>Sudoku</h1>
+      <div className={classes.gameArea}>
+        <DataInput onChange={setData} />
+        {data && <GameTable data={data} />}
+      </div>
     </div>
   );
 }
